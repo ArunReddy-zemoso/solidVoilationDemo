@@ -26,12 +26,10 @@ public class phone implements Features{
 public class tablet extends phone{
     Mouse mouse;
     KeyBoard keyBoard;
-    void mouseConnection(Mouse mouse){
-        this.mouse=mouse;
+    void mouseConnection(){
         mouse.connect();
     }
-    void keyBoardConnection(KeyBoard keyBoard){
-        this.keyBoard=keyBoard;
+    void keyBoardConnection(){
         keyBoard.connect();
     }
 }
